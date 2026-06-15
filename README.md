@@ -52,7 +52,7 @@ pip install qrcode[pil]
 python qr_generator.py
 ```
 
-## Sample Output
+
 ## Sample Output
 
 ![Sample QR Code](sample_qr.PNG)
