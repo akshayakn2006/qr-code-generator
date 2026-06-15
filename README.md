@@ -44,8 +44,14 @@ pip install qrcode[pil]
 python qr_generator.py
 ```
 
+## Sample Output
+
+![Sample QR Code](sample_qr.png)
+
 ## Author
 
 **Akshaya KN**
 B.Tech Computer Science Engineering  
 CMR University, Bangalore
+
+
