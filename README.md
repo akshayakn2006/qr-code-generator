@@ -1,16 +1,16 @@
-# QR Code Generator
+# QR Code Generator using Python
 
-This project is a QR Code Generator developed using Python. It allows users to generate both single and multiple QR codes from text, URLs, or other input data.
+A Python-based QR Code Generator that allows users to create single or multiple QR codes with customizable colors and automatic file organization.
 
-## Project Overview
+## Features
 
-The application provides a simple menu-driven interface where users can:
-
-- Generate a single QR code
-- Generate multiple QR codes at once
+- Generate a single QR code from text or URLs
+- Generate multiple QR codes in one run
 - Customize QR code and background colors
-- Save generated QR codes as PNG images
-- Automatically organize multiple QR codes into folders
+- Save QR codes as PNG images
+- Automatically create folders for bulk QR generation
+- Simple menu-driven interface
+- Input validation for better user experience
 
 ## Technologies Used
 
@@ -20,36 +20,66 @@ The application provides a simple menu-driven interface where users can:
 - OS Module
 - Datetime Module
 
-## Learning Outcomes
+## Project Structure
 
-Through this project, I improved my understanding of:
+```text
+qr-code-generator/
+│
+├── qr_generator.py
+├── sample_qr.png
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
-- Python programming
-- File handling
-- Library integration
-- User input validation
-- Project structuring and automation
+## Installation
 
-## How to Run
+Install the required dependencies:
 
-1. Install the required library:
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
 
 ```bash
 pip install qrcode[pil]
 ```
 
-2. Run the program:
+## How to Run
 
 ```bash
 python qr_generator.py
 ```
 
-## Author
-
-**Akshaya KN**
-B.Tech Computer Science Engineering  
-CMR University, Bangalore
-
 ## Sample Output
 
 ![Sample QR Code](sample_qr.png)
+
+## Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+- Python Programming
+- File Handling
+- Library Integration
+- User Input Validation
+- Automation using Python
+- Project Structuring and Documentation
+
+## Future Enhancements
+
+- GUI-based QR Code Generator using Tkinter
+- QR Code Scanner Integration
+- Support for additional file formats
+- Export generated QR codes as PDF
+
+## Author
+
+**Akshaya KN**  
+B.Tech Computer Science Engineering  
+CMR University, Bangalore
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
