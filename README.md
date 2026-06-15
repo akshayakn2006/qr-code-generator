@@ -53,8 +53,7 @@ python qr_generator.py
 ```
 
 ## Sample Output
-
-![Sample QR Code](sample_qr.png)
+<img src="./sample_qr.png" alt="Sample QR Code" width="250">
 
 ## Learning Outcomes
 
