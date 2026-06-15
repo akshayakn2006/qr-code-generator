@@ -46,7 +46,7 @@ python qr_generator.py
 
 ## Sample Output
 
-![Sample QR Code](sample_qr.png)
+![Sample QR Code](sample_qr)
 
 ## Author
 
